@@ -1,0 +1,5 @@
+#comment out everything that should be synced
+
+.sass-cache
+*.jpg
+*.gif

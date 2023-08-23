@@ -1,0 +1,72 @@
+/web/
+/phpmyadmin/
+/Unserved/
+/lost+found/
+/Axiom/
+
+## excludes for apple files
+\._*
+.DS_Store
+
+## exclude app specific files
+*.mno
+_baks/
+_notes/
+
+## excludes for cache files
+/HeliosCalendar/events/cache/
+files/UserFiles/css*
+files/UserFiles/js*
+files/UserFiles/ctools*
+.sass-cache/
+
+## excludes for git
+.git
+.gitignore
+
+## directories managed by git
+## theme paths must be relative to the rsync root so they are written two different ways
+# /htdocs
+/Drupal/sites/all/themes/omega_nmu/
+/Drupal/sites/all/themes/omega_newsletter/
+/Drupal/sites/all/themes/zen_nmu/
+/Drupal/sites/all/modules/NMU/
+# /htdocs/Drupal/sites/all/
+/themes/omega_nmu/
+/themes/zen_nmu/
+/themes/omega_newsletter/
+/modules/NMU/
+
+/cmsphp/
+/HeliosCalendar/
+/drush/
+/cmsphp/LandingPage/
+
+## excludes for testing tools
+anywhereindb_0_33.php
+FAKE.php
+user-login.tpl.php
+IAmCharlie
+
+## excludes for customized files for the testing server
+sites/all/themes/nmu/user-login.tpl.php
+robots.txt
+
+## excludes for testing drupal modules
+sites/all/modules/variablecheck*
+sites/all/modules/devel*
+sites/all/modules/drupalforfirebug*
+sites/all/modules/features*
+sites/all/modules/strongarm*
+
+## exludes are for testing installs
+/wordpress/
+/wiki/
+/moodle/
+/NewDrupal/
+
+## excludes are for project demo directories
+/Webb/EricTest/
+/Webb/northern_notes/
+/Webb/StudentFTP/
+/Webb/StudentPHP/

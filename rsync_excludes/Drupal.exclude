@@ -1,0 +1,4 @@
+#comment out everything that should not be synced
+
+/Drupal/web/sites
+.sass-cache

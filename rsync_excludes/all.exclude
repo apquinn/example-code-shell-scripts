@@ -1,0 +1,15 @@
+#comment out everything that should be synced
+
+SkyMicrosite
+Rokerthon-Microsite
+YooperTroopers
+NorthernNotes
+BoardOfTrustees
+EventImages
+SportsForm
+DSOHousingImages
+.sass-cache
+AdmissionsAppData
+AdmissionsAppDataTest
+
+
